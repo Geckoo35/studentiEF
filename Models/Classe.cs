@@ -1,4 +1,4 @@
-public class CLasse
+public class Classe
 {
     public int ClasseId { get; set; }
     public int Anno { get; set; }
