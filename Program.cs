@@ -14,4 +14,9 @@ var query = context.Studenti.AsNoTracking()
 //.toLlist();
 //.ToQueryString();
 
-//
+Console.WriteLine(query);
+
+foreach(var item in query)
+{
+    Console.WriteLine($"{item.Nome}{item.Cognome}{item.DataNascita}");
+}
